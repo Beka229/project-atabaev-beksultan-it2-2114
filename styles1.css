@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('Book Cover.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  }
+  
+  header {
+    background-color: #eae2b7;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color:#eae2b7;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #eae2b7;
+    color: #fff;
+  }
+  
+  .scrollable {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Additional CSS for various selectors, Box Model, Opacity, Position, Transitions, Google Fonts */
+  h1 {
+    color: #333;
+  }
+  
+  #title {
+    font-weight: bold;
+  }
+  
+  .scrollable:hover {
+    background-color: #eee;
+  }
+  
+  .description {
+    font-style: italic;
+  }
+  
+  /* Responsive CSS and Flexbox */
+  @media only screen and (max-width: 768px) {
+    nav ul li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    .scrollable {
+      max-height: none;
+      overflow-y: visible;
+    }
+  }
+  
+  /* Flexbox Styles */
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .flex-item {
+    margin: 10px;
+  }
+  
+  /* Bootstrap Styles */
+  .container {
+    margin: 20px;
+  }
+  
+  .btn-primary {
+    background-color: #eae2b7;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #eae2b7;
+  }
+  main {
+    flex-grow: 1;
+  }
+  
+  footer {
+    background-color: #eae2b7; /* Adjust the color to match your background */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .stripe {
+    height: 10px;
+    background-color: #d6c3a1; /* Adjust the color to match your background */
+  }
+
+  
